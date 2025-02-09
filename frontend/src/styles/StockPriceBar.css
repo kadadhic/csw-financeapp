@@ -1,0 +1,21 @@
+.stock-price-bar {
+  background: linear-gradient(90deg, #1a237e, #0d47a1);
+  padding: 10px;
+  color: white;
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.stock-ticker {
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.price.positive { color: #4caf50; }
+.price.negative { color: #f44336; }
+
+.change {
+  font-size: 0.9em;
+  margin-left: 5px;
+}
